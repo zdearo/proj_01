@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="modal">
+        <div class="content">
+          <p>Este é um teste de tempo de reação. Para começar, pressione a barra 
+          de espaço. As luzes do semáforo mudarão para vermelho em momentos 
+          aleatórios. Quando mudarem para verde, o cronômetro começará a contar. 
+          Pressione novamente a barra de espaço para parar o contador e ver seu 
+          tempo de reação.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1>Press space to start</h1>
+      <div class="semaphore">
+        <div id="light-1" class="light bg-gray"></div>
+        <div id="light-2" class="light bg-gray"></div>
+        <div id="light-3" class="light bg-gray"></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="time">
+        <h2>Timer:</h2>
+        <div id="display">000 ms</div>
+      </div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
